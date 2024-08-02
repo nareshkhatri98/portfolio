@@ -9,9 +9,9 @@
     
 } 
 .icon {
-    width: 50px; /* Set the width of the icons */
-    height: 50px; /* Set the height of the icons */
-    object-fit: contain; /* Ensure icons fit within the set dimensions */
+    width: 50px; 
+    height: 50px; 
+    object-fit: contain; 
 }
 
 #vol {
@@ -19,8 +19,8 @@
     -webkit-appearance: none;
     appearance: none;
     width: 100%;
-    height: 20px; /* Increased height for a larger track */
-    border-radius: 10px; /* Increased border-radius for rounded corners */
+    height: 20px;
+    border-radius: 10px; 
     background: #ddd;
     outline: none;
     opacity: 0.7;
@@ -33,7 +33,7 @@
     height: 20px; /* Increased track height */
     cursor: pointer;
     animation: 0.2s;
-    background: linear-gradient(to right, #4caf50, #f44336); /* Background gradient */
+    background: #FD6F00;
     border-radius: 10px;
     border: 1px solid #000000;
 }
