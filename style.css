@@ -7,7 +7,14 @@
     background-color: #000000;
     color: white;    
     
-} #vol {
+} 
+.icon {
+    width: 50px; /* Set the width of the icons */
+    height: 50px; /* Set the height of the icons */
+    object-fit: contain; /* Ensure icons fit within the set dimensions */
+}
+
+#vol {
     /* General styling */
     -webkit-appearance: none;
     appearance: none;
