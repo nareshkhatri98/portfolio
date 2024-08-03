@@ -13,14 +13,16 @@
     height: 50px; 
     object-fit: contain; 
 }
-
-#vol {
+#php,
+#webdesign,
+#java,
+#python {
     /* General styling */
     -webkit-appearance: none;
     appearance: none;
     width: 100%;
     height: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
     background: #ddd;
     outline: none;
     opacity: 0.7;
@@ -28,9 +30,12 @@
 }
 
 /* WebKit specific styles */
-#vol::-webkit-slider-runnable-track {
+#php::-webkit-slider-runnable-track,
+#webdesign::-webkit-slider-runnable-track,
+#java::-webkit-slider-runnable-track,
+#python::-webkit-slider-runnable-track {
     width: 100%;
-    height: 20px; /* Increased track height */
+    height: 20px;
     cursor: pointer;
     animation: 0.2s;
     background: #FD6F00;
@@ -38,32 +43,41 @@
     border: 1px solid #000000;
 }
 
-#vol::-webkit-slider-thumb {
+#php::-webkit-slider-thumb,
+#webdesign::-webkit-slider-thumb,
+#java::-webkit-slider-thumb,
+#python::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 30px; /* Increased thumb width */
-    height: 30px; /* Increased thumb height */
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: #fff;
     border: 2px solid #000;
     cursor: pointer;
-    margin-top: -5px; /* Offset to center thumb */
+    margin-top: -5px;
 }
 
 /* Firefox specific styles */
-#vol::-moz-range-track {
+#php::-moz-range-track,
+#webdesign::-moz-range-track,
+#java::-moz-range-track,
+#python::-moz-range-track {
     width: 100%;
-    height: 20px; /* Increased track height */
+    height: 20px;
     cursor: pointer;
     animation: 0.2s;
-    background: linear-gradient(to right, #4caf50, #f44336); /* Background gradient */
+    background: linear-gradient(to right, #4caf50, #f44336);
     border-radius: 10px;
     border: 1px solid #000000;
 }
 
-#vol::-moz-range-thumb {
-    width: 30px; /* Increased thumb width */
-    height: 30px; /* Increased thumb height */
+#php::-moz-range-thumb,
+#webdesign::-moz-range-thumb,
+#java::-moz-range-thumb,
+#python::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: #fff;
     border: 2px solid #000;
@@ -71,30 +85,37 @@
 }
 
 /* Edge specific styles */
-#vol::-ms-track {
+#php::-ms-track,
+#webdesign::-ms-track,
+#java::-ms-track,
+#python::-ms-track {
     width: 100%;
-    height: 20px; /* Increased track height */
+    height: 20px;
     cursor: pointer;
     background: transparent;
     border-color: transparent;
     color: transparent;
 }
 
-#vol::-ms-fill-lower {
-    background: linear-gradient(to right, #4caf50, #f44336); /* Background gradient */
+#php::-ms-fill-lower,
+#webdesign::-ms-fill-lower,
+#java::-ms-fill-lower,
+#python::-ms-fill-lower,
+#php::-ms-fill-upper,
+#webdesign::-ms-fill-upper,
+#java::-ms-fill-upper,
+#python::-ms-fill-upper {
+    background: linear-gradient(to right, #4caf50, #f44336);
     border-radius: 10px;
     border: 1px solid #000000;
 }
 
-#vol::-ms-fill-upper {
-    background: linear-gradient(to right, #4caf50, #f44336); /* Background gradient */
-    border-radius: 10px;
-    border: 1px solid #000000;
-}
-
-#vol::-ms-thumb {
-    width: 30px; /* Increased thumb width */
-    height: 30px; /* Increased thumb height */
+#php::-ms-thumb,
+#webdesign::-ms-thumb,
+#java::-ms-thumb,
+#python::-ms-thumb {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: #fff;
     border: 2px solid #000;
@@ -102,6 +123,9 @@
 }
 
 /* General hover and focus styling */
-#vol:hover {
+#php:hover,
+#webdesign:hover,
+#java:hover,
+#python:hover {
     opacity: 1;
 }
