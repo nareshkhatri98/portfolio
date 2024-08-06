@@ -7,6 +7,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body >
@@ -180,6 +183,27 @@
         urna tellus.
       </p>
     </div>
+    <div class="slider mt-20 flex justify-center mx-auto container">
+        <div class="text-9xl">
+          <i class='bx bxl-tailwind-css'></i>
+        </div>
+        <div class="text-9xl">
+          <i class='bx bxl-html5'></i>
+        </div>
+        <div class="text-9xl">
+          <i class='bx bxl-python'></i>
+        </div>
+        <div class="text-9xl">
+          <i class='bx bxl-java'></i>
+        </div>
+        <div class="text-9xl">
+          <i class='bx bxl-javascript'></i>
+        </div>
+        <div class="text-9xl">
+          <i class='bx bxl-php'></i>
+        </div>
+      </div>
+      
     </div>
    
   </section>
@@ -250,6 +274,23 @@
     loop: true
   });
 </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   
+
+  
+<script>
+    $(document).ready(function(){
+      $('.slider').slick({
+     slidesToShow: 4,
+       slidesToScroll: 1,
+      autoplay: true,
+     autoplaySpeed: 2000, // Delay between auto-play slides
+      });
+    });
   </script>
+  
+
+
 </body>
 </html>
